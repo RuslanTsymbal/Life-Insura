@@ -1,0 +1,21 @@
+// Кнопки
+
+.my-btn {
+  width: 281px;
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #80f9c3;
+  outline: 0 none;
+  border: 0 none;
+  border-radius: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #80f9c3;
+  text-transform: uppercase;
+  font-family: $font-family-bold;
+  color: #182236;
+}
+
+.my-btn:hover {
+  background-color: #6cdaa9;
+}
