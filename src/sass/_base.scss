@@ -3,6 +3,15 @@
 html {
   box-sizing: border-box;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
+  font-size: 62.5%;
+
+  @include max-w(800px) {
+    font-size: 57.5%;
+  }
+
+  @include max-w(480px) {
+    font-size: 54.5%;
+  }
 }
 
 *,
@@ -41,8 +50,6 @@ section {
 .icon {
   display: inline-block;
 }
-
-
 
 a {
   text-decoration: none;

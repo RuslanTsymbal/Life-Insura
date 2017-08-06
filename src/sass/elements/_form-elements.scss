@@ -14,17 +14,16 @@ input[type='tel'] {
   font-size: 18px;
   background-color: #2c3952;
   color: #8b9cbd;
+
+  @include max-w(943px) {
+    margin-bottom: 15px;
+  }
+
+  @include max-w(480px) {
+    font-size: 14px;
+  }
 }
 
-
-
-input[type='email'],
-input[type='url'],
-input[type='search'],
-input[type='password'],
-textarea,
-select {
-}
 
 //color placeholder
 

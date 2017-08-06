@@ -3,26 +3,47 @@
 }
 
 .header-content{
-  font-size: 36px;
-  line-height: 32px;
+  font-size: 3.6rem;
+  line-height: 3.2rem;
   text-align: right;
   z-index: 2;
-
-  @include max-w(768px) {
-    font-size: 4vw;
-  }
 
   span {
     color: #ffffff;
     display: block;
     text-align: left;
-    font-size: 24px;
+    font-size: 2.4rem;
+
+    @include max-w(400px) {
+      font-size: 2rem;
+    }
+
+    @include max-w(320px) {
+      font-size: 1.8rem;
+    }
   }
 
   a {
     color: #80f9c3;
     font-weight: 700;
-    font-size: 36px;
+    font-size: 3.6rem;
+
+    @include max-w(800px) {
+      display: block;
+      text-align: right;
+    }
+
+    @include max-w(480px) {
+      font-size: 2.6rem;
+    }
+
+    @include max-w(400px) {
+      font-size: 2.3rem;
+    }
+
+    @include max-w(320px) {
+      font-size: 2.1rem;
+    }
   }
 }
 
