@@ -19,10 +19,10 @@
         <div class="form-block">
           <span>Fill The Form Out <br>& <br>We’ll Get In Touch With You Quickly</span>
 
-          <form  class="my-form" action="#" method="#">
-            <input type="text" name="name" placeholder="Name">
-            <input type="tel" name="tel" placeholder="Phone number">
-            <button type="button" class="my-btn">submit</button>
+          <form  class="my-form contact-form" action="mail.php" method="POST" id="contact">
+            <input type="text" name="name" placeholder="Name" required>
+            <input type="tel" name="tel" placeholder="Phone number" required pattern="^[0-9]+$">
+            <button type="submit" class="my-btn">submit</button>
           </form>
 
         </div><!-- .form-block -->

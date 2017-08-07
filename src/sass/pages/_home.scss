@@ -37,7 +37,7 @@
     font-size: 7.2rem;
     margin-bottom: 87px;
     text-align: center;
-     
+
     @include max-w(1180px) {
       font-size: 6.5rem;
     }
@@ -55,7 +55,7 @@
       margin-bottom: 20px;
     }
 
-    @include max-w(400px) {
+    @include max-w(414px) {
       font-size: 4rem;
     }
 
@@ -115,7 +115,7 @@
     br {
       display: none;
 
-      @include max-w(400px) {
+      @include max-w(414px) {
         display: block;
       }
     }
@@ -292,7 +292,7 @@
   .content-block__list {
     padding-bottom: 25px;
   }
-  
+
   .content-block__picture {
     margin-top: 78px;
 
@@ -327,7 +327,7 @@
     padding-top: 40px;
   }
 
-  @include max-w(400px) {
+  @include max-w(414px) {
     padding-top: 20px;
   }
 
@@ -337,7 +337,7 @@
 }
 
 .banner-bot__content.page-container {
-   
+
   @include max-w(320px) {
     padding-right: 0;
     padding-left: 0;
@@ -366,7 +366,7 @@
       margin-bottom: 10px;
     }
 
-    @include max-w(400px) {
+    @include max-w(414px) {
       font-size: 3.2rem;
     }
 
@@ -478,6 +478,10 @@
     width: 62%;
   }
 
+  @include max-w(414px) {
+    width: 72%;
+  }
+
   @include max-w(400px) {
     width: 82%;
   }
@@ -547,7 +551,7 @@
     padding-bottom: 60px;
   }
 
-  @include max-w(400px) {
+  @include max-w(414px) {
     position: relative;
     top: -53px;
     padding-bottom: 0px;
@@ -573,7 +577,7 @@
       font-size: 4rem;
     }
 
-    @include max-w(400px) {
+    @include max-w(414px) {
       font-size: 3.2rem;
       margin-bottom: 35px;
     }
@@ -619,5 +623,14 @@
 
   @include max-w(320px) {
     margin-bottom: -28px;
+  }
+
+  ul {
+    li {
+
+      @include max-w(610px) {
+        width: 180px;
+     }
+    }
   }
 }

@@ -31,3 +31,23 @@ input[type='tel'] {
 ::-moz-placeholder          {color: #8b9cbd;}/* Firefox 19+ */
 :-moz-placeholder           {color: #8b9cbd;}/* Firefox 18- */
 :-ms-input-placeholder      {color: #8b9cbd;}
+
+
+.message-error, .message-spam {
+  border: 2px solid red;
+  color: red;
+}
+
+.before-send, .message-complite, .message-error, .message-spam {
+  background-color: #fff;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: none;
+  border-radius: 6px;
+}
+
+.message-complite {
+  border: 2px solid green;
+  color: green;
+}
